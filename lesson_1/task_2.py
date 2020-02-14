@@ -1,0 +1,5 @@
+sec_time = int(input('Введите время в секундах: '))
+hours = str(sec_time // 3600).zfill(2)
+minutes = str(sec_time % 3600 // 60).zfill(2)
+seconds = str(sec_time % 3600 % 60).zfill(2)
+print(f'{hours}:{minutes}:{seconds}')
